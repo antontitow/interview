@@ -1,4 +1,4 @@
-package ru.titov.threads.multithreads.products;
+package ru.titov.threads.multithreads.case1.products;
 
 /**
  * @autor : Anton Titov {@literal antontitow@bk.ru}

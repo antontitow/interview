@@ -6,38 +6,26 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.titov.threads.multithreads.Bill;
-import ru.titov.threads.multithreads.Invoice;
-import ru.titov.threads.multithreads.order.Order;
-import ru.titov.threads.multithreads.products.BedProduct;
-import ru.titov.threads.multithreads.products.FurnitureProduct;
-import ru.titov.threads.multithreads.products.Product;
+import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Invoice;
+import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Order;
+import ru.titov.threads.multithreads.case2.newsgenerator.v2.service.OrderHandler;
 
 import java.util.Arrays;
-import java.util.List;
 
 @SpringBootApplication
 @Slf4j
 public class ThreadsApplication {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         SpringApplication.run(ThreadsApplication.class, args);
 
         ApplicationContext context = new AnnotationConfigApplicationContext(ThreadsApplication.class);
         BeanFactory beanFactory = new AnnotationConfigApplicationContext(ThreadsApplication.class);
 
-        Bill bill = new Bill();
-        List<Product> products = Arrays.asList(
-                new FurnitureProduct(1L, null, null),
-                new BedProduct(2L, null, null),
-                new FurnitureProduct(3L, null, null),
-                new BedProduct(4L, null, null),
-                new BedProduct(1L, null, null),
-                new BedProduct(2L, null, null),
-                new FurnitureProduct(3L, null, null),
-                new BedProduct(4L, null, null)
-        );
-        Order order = Order.builder().products(products).build();
-        bill.processAllOrders(new Invoice(), order);
+
+        OrderHandler orderHandler = new OrderHandler(new Order(Arrays.asList(1L, 2L, 2L, 3L, 4L), 1L));
+        Invoice invoice = orderHandler.orderHandle();
+        log.info(invoice.toString());
+
     }
 }

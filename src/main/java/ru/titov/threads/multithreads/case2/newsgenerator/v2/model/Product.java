@@ -1,18 +1,15 @@
-package ru.titov.threads.multithreads.products;
+package ru.titov.threads.multithreads.case2.newsgenerator.v2.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-import lombok.NoArgsConstructor;
 
 /**
  * @autor : Anton Titov {@literal antontitow@bk.ru}
- * @created : 21.07.2023, 1:20
+ * @created : 21.07.2023, 22:50
  **/
 @AllArgsConstructor
-@NoArgsConstructor
 @Data
 public class Product {
     private Long id;
-    private String description;
     private Double cost;
 }

@@ -1,4 +1,4 @@
-package ru.titov.threads.multithreads;
+package ru.titov.threads.multithreads.case1;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

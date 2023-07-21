@@ -1,6 +1,6 @@
-package ru.titov.threads.multithreads.db;
+package ru.titov.threads.multithreads.case1.db;
 
-import ru.titov.threads.multithreads.products.BedProduct;
+import ru.titov.threads.multithreads.case1.products.BedProduct;
 
 import java.util.Arrays;
 import java.util.List;

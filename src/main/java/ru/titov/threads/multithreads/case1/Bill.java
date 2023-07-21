@@ -1,15 +1,15 @@
-package ru.titov.threads.multithreads;
+package ru.titov.threads.multithreads.case1;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import ru.titov.threads.multithreads.order.Order;
-import ru.titov.threads.multithreads.processors.BedCostProccessor;
-import ru.titov.threads.multithreads.processors.FurnitureCostProccessor;
-import ru.titov.threads.multithreads.products.BedProduct;
-import ru.titov.threads.multithreads.products.FurnitureProduct;
-import ru.titov.threads.multithreads.products.Product;
+import ru.titov.threads.multithreads.case1.order.Order;
+import ru.titov.threads.multithreads.case1.processors.BedCostProccessor;
+import ru.titov.threads.multithreads.case1.processors.FurnitureCostProccessor;
+import ru.titov.threads.multithreads.case1.products.BedProduct;
+import ru.titov.threads.multithreads.case1.products.FurnitureProduct;
+import ru.titov.threads.multithreads.case1.products.Product;
 
 import java.util.ArrayList;
 import java.util.List;

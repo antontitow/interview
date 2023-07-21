@@ -1,9 +1,9 @@
-package ru.titov.threads.multithreads.processors;
+package ru.titov.threads.multithreads.case1.processors;
 
 import lombok.extern.slf4j.Slf4j;
-import ru.titov.threads.multithreads.Invoice;
-import ru.titov.threads.multithreads.db.FurnitureProductFactory;
-import ru.titov.threads.multithreads.products.FurnitureProduct;
+import ru.titov.threads.multithreads.case1.Invoice;
+import ru.titov.threads.multithreads.case1.db.FurnitureProductFactory;
+import ru.titov.threads.multithreads.case1.products.FurnitureProduct;
 
 import java.util.List;
 import java.util.Optional;

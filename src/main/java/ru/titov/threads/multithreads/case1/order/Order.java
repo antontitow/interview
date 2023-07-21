@@ -1,9 +1,9 @@
-package ru.titov.threads.multithreads.order;
+package ru.titov.threads.multithreads.case1.order;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
-import ru.titov.threads.multithreads.products.Product;
+import ru.titov.threads.multithreads.case1.products.Product;
 
 import java.util.List;
 
