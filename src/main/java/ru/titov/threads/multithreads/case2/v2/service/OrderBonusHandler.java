@@ -1,10 +1,10 @@
-package ru.titov.threads.multithreads.case2.newsgenerator.v2.service;
+package ru.titov.threads.multithreads.case2.v2.service;
 
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.bd.ProductFactory;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Invoice;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Order;
+import ru.titov.threads.multithreads.case2.v2.bd.ProductFactory;
+import ru.titov.threads.multithreads.case2.v2.model.Invoice;
+import ru.titov.threads.multithreads.case2.v2.model.Order;
 
 /**
  * @autor : Anton Titov {@literal antontitow@bk.ru}

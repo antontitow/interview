@@ -6,9 +6,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Invoice;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Order;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.service.OrderHandler;
+import ru.titov.threads.multithreads.case2.v2.model.Invoice;
+import ru.titov.threads.multithreads.case2.v2.model.Order;
+import ru.titov.threads.multithreads.case2.v2.service.OrderHandler;
 
 import java.util.Arrays;
 

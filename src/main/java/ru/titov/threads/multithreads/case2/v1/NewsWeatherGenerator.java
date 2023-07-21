@@ -1,7 +1,7 @@
-package ru.titov.threads.multithreads.case2.newsgenerator.v1;
+package ru.titov.threads.multithreads.case2.v1;
 
 import lombok.AllArgsConstructor;
-import ru.titov.threads.multithreads.case2.model.News;
+import ru.titov.threads.multithreads.case2.v1.model.News;
 
 /**
  * @autor : Anton Titov {@literal antontitow@bk.ru}

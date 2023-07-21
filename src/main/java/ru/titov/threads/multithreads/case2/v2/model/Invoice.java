@@ -1,4 +1,4 @@
-package ru.titov.threads.multithreads.case2.newsgenerator.v2.model;
+package ru.titov.threads.multithreads.case2.v2.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

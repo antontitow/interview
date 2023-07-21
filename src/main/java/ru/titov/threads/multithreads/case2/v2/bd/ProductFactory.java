@@ -1,6 +1,6 @@
-package ru.titov.threads.multithreads.case2.newsgenerator.v2.bd;
+package ru.titov.threads.multithreads.case2.v2.bd;
 
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Product;
+import ru.titov.threads.multithreads.case2.v2.model.Product;
 
 import java.util.Arrays;
 import java.util.List;

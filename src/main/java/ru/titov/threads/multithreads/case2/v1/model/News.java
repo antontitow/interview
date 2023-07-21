@@ -1,4 +1,4 @@
-package ru.titov.threads.multithreads.case2.model;
+package ru.titov.threads.multithreads.case2.v1.model;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

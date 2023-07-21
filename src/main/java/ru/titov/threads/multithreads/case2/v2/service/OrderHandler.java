@@ -1,8 +1,8 @@
-package ru.titov.threads.multithreads.case2.newsgenerator.v2.service;
+package ru.titov.threads.multithreads.case2.v2.service;
 
 import lombok.RequiredArgsConstructor;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Invoice;
-import ru.titov.threads.multithreads.case2.newsgenerator.v2.model.Order;
+import ru.titov.threads.multithreads.case2.v2.model.Invoice;
+import ru.titov.threads.multithreads.case2.v2.model.Order;
 
 import static java.lang.Thread.sleep;
 
