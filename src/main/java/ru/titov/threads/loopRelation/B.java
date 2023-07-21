@@ -1,5 +1,6 @@
 package ru.titov.threads.loopRelation;
 
+import jakarta.annotation.PostConstruct;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
@@ -20,5 +21,10 @@ public class B {
 
     public void voiceB() {
         log.info("Voice B");
+    }
+
+//    @PostConstruct
+    public void init(){
+        log.info("B injected A");
     }
 }

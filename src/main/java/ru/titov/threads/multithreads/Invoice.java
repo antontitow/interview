@@ -12,8 +12,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 public class Invoice {
-    private Double amount;
-    private double cost;
-    public String timeNow;
-
+    private volatile Double balance = 0.0;
 }
