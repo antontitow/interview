@@ -3,13 +3,13 @@ package ru.titov.threads;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
-import ru.titov.threads.multithreads.executor.executors.ForkJoinCaller;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.concurrent.ExecutionException;
 
 @SpringBootApplication
 @Slf4j
+@ComponentScan()
 public class ThreadsApplication {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
@@ -19,7 +19,7 @@ public class ThreadsApplication {
 //        BeanFactory beanFactory = new AnnotationConfigApplicationContext(ThreadsApplication.class);
 
 
-        new ForkJoinCaller();
+//        new ForkJoinCaller();
 
     }
 }
